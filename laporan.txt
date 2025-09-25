@@ -1,0 +1,24 @@
+instalasi program syarat u/ aplikasi 
+-node js
+pembuatan aplikasi nextjs 
+sintaxs di terminal 
+opsi pilihan untuk instalasi aplikasi nextjs
+routing di nextjs
+    routing statis: yg g pakai kurung kotak
+    routing dinamis: yg g pakai kurung kurung
+menggunakan api di nextjs 
+    api = application proggraming interface 
+    fungsi: penghubung antara user dan server 
+    method yg di gunnakan pada api:
+    create,read,update,delete
+praktek api method get di aplikasi nextjs:
+    memahami fetching api di nextjs
+    format json yg diperoleh dengan methode get:
+    -bagaimana cara mengetahui format response api
+    --cara melihar json yg terformat 
+    -array (api mockup) []
+    -object, ciri (api jokes) {}
+api mockup
+api jokes
+api quran
+api geografis, suhu, zona waktu, mata uang 

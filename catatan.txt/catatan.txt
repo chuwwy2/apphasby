@@ -1,0 +1,4 @@
+insttall note js 
+buat folder untuk menyimpan project 
+ketik di terminal npx create-next-app@latest apphasby
+code .
