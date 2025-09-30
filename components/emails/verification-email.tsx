@@ -62,7 +62,7 @@ const VerificationEmail = ({userName, verificationUrl}: verifemailprops) => {
             {/* Alternative Link */}
             <Section className="mb-[32px]">
               <Text className="text-[14px] text-gray-600 leading-[20px] mb-[8px]">
-                If the button above doesn't work, copy and paste this link into your browser:
+                If the button above doesn&apos;t work, copy and paste this link into your browser:
               </Text>
               <Text className="text-[14px] text-blue-600 leading-[20px] break-all">
                 {verificationUrl}
@@ -77,7 +77,7 @@ const VerificationEmail = ({userName, verificationUrl}: verifemailprops) => {
                 <strong>Security Notice:</strong>
               </Text>
               <Text className="text-[14px] text-gray-600 leading-[20px]">
-                If you didn't create an account with us, please ignore this email. Your email address will not be added to our system.
+                If you didn&apos;t create an account with us, please ignore this email. Your email address will not be added to our system.
               </Text>
             </Section>
 

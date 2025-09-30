@@ -10,4 +10,26 @@ ls
         meng-capture file yang akan kita simpan ke github (tp belum ada keterangan versi aplikasi nya)
     git add --renormalize .
         menormalisasikan versi os agar tidak di warna github 
-    
+    gh auth login
+        login github agar bisa mengirim dan mengedit repositori dari laptop ke github online 
+        kunci jawaban:
+            github.com
+            https
+                g terikat device spt shh
+            authenticate w/ github crendentials: pilih y - biar g bolak balik isi username password 
+            how to authenticate github cli: pilih sn authenticate token 
+    git COMMIT -M "NAMA / KETERANGAN VERSI APLIKASI YG AKAN DI PUSH"
+        KALO DI TEGUR TELL ME WHO YOU ARE , KENALAN DLU SM GIT nya
+        GIT CONFIG USER.EMAIL "emailgh kite"
+        git config user.name "usernamegh kite"
+            git config user.name "chuwwy1122@gmail.com"
+            git config user.name "chuwwy2"
+    git repo create apphasby --public --source=. --remote=origin --push
+        buat repository dari cli.github biar g mondar mandir dr website 
+        kalau mau di buat private u/ private repositori
+    git remote -v 
+        cek udah sinkron atau belum antara local / laptop  / device kita dg repositori / follder online di github 
+
+    repository aman v 
+        -mastiin fitur aplikasi di localhost udh aman semua 
+        -buka terminal baru di vscode: npm run lint
